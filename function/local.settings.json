@@ -1,0 +1,6 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "MigratingCloudApp_SERVICEBUS": "Endpoint=sb://migratingcloudapp.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=tCx1Q7Oj11an9ofb42w1Da+MkhW2bZY11+ASbEaN64E="
+  }
+}

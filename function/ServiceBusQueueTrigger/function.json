@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "notificationqueue",
+      "connection": "",
+      "AzureWebJobsServiceBus": "Endpoint=sb://migratingcloudapp.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=tCx1Q7Oj11an9ofb42w1Da+MkhW2bZY11+ASbEaN64E="
+    }
+  ]
+}
