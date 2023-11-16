@@ -61,11 +61,14 @@ You will need to install the following locally:
 ## Monthly Cost Analysis
 Complete a month cost analysis of each Azure resource to give an estimate total cost using the table below:
 
-| Azure Resource | Service Tier | Monthly Cost |
-| ------------ | ------------ | ------------ |
-| *Azure Postgres Database* |     |              |
-| *Azure Service Bus*   |         |              |
-| ...                   |         |              |
+| Azure Resource              | Service Tier    | Monthly Cost |
+| ------------                | ------------    | ------------ |
+| *Azure Postgres Database*   | Basic Gen 5     | vCore: 24.82 x 1 + 0.1(GB/month) * 5GB = 25.32 USD  |
+| *Azure Service Bus*         | Basic           | 0.05 USD                                            |
+| *Azure Function*            | Consumption     | 0 USD                                               |
+| *App Service Plan*          | Basic B1        | 12,41 USD                                           |
+| *Storage Accounts*          | Standard        | 25.04 USD                                           |
+| ...                         |                 |              |
 
 ## Architecture Explanation
 This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App and Azure Function.
