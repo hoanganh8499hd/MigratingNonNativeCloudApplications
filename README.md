@@ -72,3 +72,5 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 ## Architecture Explanation
 This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App and Azure Function.
+
+This app have sending email which place into background process. Azure Web App will take care of displaying and responding to user actions. Migrating the existing web app to an Azure App Service takes cares of scaling constraint, improves operation cost efficiency
